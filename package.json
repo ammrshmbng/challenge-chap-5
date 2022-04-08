@@ -1,0 +1,19 @@
+{
+  "name": "challenge-chap-5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ammrshmbng/challenge-chap-5.git"
+  },
+  "author": "ammar sihombing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ammrshmbng/challenge-chap-5/issues"
+  },
+  "homepage": "https://github.com/ammrshmbng/challenge-chap-5#readme"
+}
