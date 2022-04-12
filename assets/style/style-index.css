@@ -1,0 +1,887 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: 'Open Sans';
+}
+.container{
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF;
+    
+
+    /* display: flex; */
+
+    /* border: 1px solid orange; */
+}
+
+/* Container 1 */
+
+.container-1{
+    width: 100%;
+    height: 100vh;
+    /* margin-top: -2px; */
+    background-image: url(../img/main-bg.jpg);
+    background-size: cover;
+    position: relative;
+
+
+    
+
+
+    /* border: 2px solid orange; */
+    
+}
+.navbar{
+    height: 90px;
+    background-color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    
+
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;
+
+    /* border: 1px solid green; */
+}
+.navbar h1{
+   
+    font-size: 24px;
+    
+    color: #FFFFFF;
+    margin-left: 3px;
+}
+
+.navbar .list{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    /* flex: 1; */
+    list-style: none;
+
+    /* border: 1px solid black; */
+}
+
+.navbar .list li{
+    margin-right: 32px;
+    color: #FFFFFF;
+}
+
+.navbar .login li{
+    margin-right: 30px;
+}
+
+.navbar .login{
+    display: flex;
+    color: #FFFFFF;
+    list-style: none;
+    
+    /* border: 1px solid black; */
+
+}
+
+.container-1 .judul{
+    position: absolute;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+    top: calc(50% - 73.12px/2 - 130.06px);
+    left: 9.22%;
+    right: 10.47%;
+}
+
+.container-1 button{
+    Width: 260.36px;
+    Height: 60px;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+    font-weight: bold;
+    
+
+    position: absolute;
+    left: 40.83%;
+    right: 41.09%;
+    top: 55.07%;
+    bottom: 38.68%;
+}
+
+/* Container 2 */
+
+.container-2{
+    position: relative;
+    background-image: url(../img/the-games-bg.jpg);
+    width: 100%;
+    height: 100vh;
+}
+
+.container-2 h3{
+    position: absolute;
+    left: 5.7%;
+    right: 76.09%;
+    top: 28.48%;
+    bottom: 68.64%;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+
+
+}
+
+.container-2 h1{
+    position: absolute;
+    height: 73.64px;
+    left: 5.42%;
+    right: 66.01%;
+    top: calc(58% - 73.64px/2 - 133.59px);
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.container-2 .img{
+    position: absolute;
+    width: 858px;
+    height: 477px;
+    left: 453px;
+    top: 147.7px;
+    background-image: url(../img/rockpaperstrategy-1600.jpg);
+
+}
+
+
+
+.container-2 .img .radio{
+    margin-top: 449px;
+    margin-left: 293px;
+}
+.radio span:nth-child(1){
+    background-color: #FFFFFF;
+   
+}
+.container-2 .img .radio span{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    
+    
+    margin-right: 60px;
+    border-radius: 50%;
+    border: 1px solid white;
+   
+
+
+
+}
+.container-2 .switch-left {
+    display: inline-block;
+    position: absolute;
+    
+    left: 411px;
+    top: 341.7px;
+    /* border: 3.36454px solid #FFFFFF; */
+    /* transform: matrix(0, -1, -1, 0, 0, 0); */
+
+}
+
+.container-2 .switch-right{
+    display: inline-block;
+    position: absolute;
+   
+    right: 90px;
+    top: 341.7px;
+}
+
+/* Container-3 */
+.container-3 {
+    background-image: url(../img/features.jpg);
+    background-size: cover;
+    position: relative;
+   
+    width: 100%;
+    height: 870.26px;
+    
+    
+}
+
+.container-3 h3{
+    position: absolute;
+    left: 55.52%;
+    right: 26.29%;
+    top: 26.96%;
+    bottom: 70.16%;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    /* identical to box height */
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+}
+
+.container-3 h1{
+    position: absolute;
+    height: 73.64px;
+    left: 55.25%;
+    right: 16.22%;
+    top: calc(52% - 73.64px/2 - 147.97px);
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+
+}
+
+.container-3 .garis{
+    position: relative;
+    
+}
+
+.container-3 .garis span{
+    position: absolute;
+}
+
+.container-3 .garis .radio-1, .container-3 .garis .radio-3 {
+    
+    width: 14px;
+    height: 14px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.container-3 .garis .radio-1{
+    left: 809.62px;
+    top: 445.91px;  
+}
+
+.container-3 .garis .radio-3{
+    left: 809.21px;
+    top: 594.68px;
+}
+
+.container-3 .garis .radio-4{
+    width: 14px;
+    height: 14px;
+    left: 809.21px;
+    top: 671.6px;
+
+    border: 1.30637px solid #FFFFFF;
+    transform: rotate(90deg);
+    border-radius: 50%;
+}
+
+.container-3 .garis .garis-2{
+    width: 141.03px;
+    height: 0px;
+    left: 744.42px;
+    top: 529.51px;
+
+    border: 1.95955px solid #FFFFFF;
+    transform: rotate(90deg);
+}
+
+.container-3 .content{
+    position: relative;
+}
+
+.container-3 .content h2, .container-3 .content p{
+    position: absolute;
+}
+
+.container-3 .content .judul-game{
+    width: 348.2px;
+    height: 38.23px;
+    left: 809.29px;
+    top: 439.6px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #FFB548;
+}
+.container-3 .content p{
+    position: absolute;
+   
+    left: 58.44%;
+    right: 16.42%;
+    top: 50.32%;
+    bottom: 41.58%;
+    
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    
+    /* or 122% */
+    text-align: justify;
+    
+    color: #FFFFFF;
+    
+    
+
+
+}
+
+.container-3 .content .game-suit{
+    width: 366.44px;
+    height: 38.23px;
+    left: 842.04px;
+    top: 588.45px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+
+    color: #FFB548;
+
+
+}
+
+.container-3 .content .tbd{
+    width: 348.2px;
+    height: 38.23px;
+    left: 842.04px;
+    top: 663.39px;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+
+    color: #FFB548;
+}
+
+/* Container 4 */
+.container-4{
+    width: 100%;
+    height: 876.16px;
+    background-image: url(../img/requirements.png);
+    position: relative;
+    
+}
+
+.container-4 h1{
+   position: absolute;
+   height: 73.64px;
+    left: 9.02%;
+    right: 47.07%;
+    top: calc(50% - 73.64px/2 - 216.05px);
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.container-4 h3{
+    position: absolute;
+    left: 39.27%;
+    right: 36.26%;
+    top: 15.12%;
+    bottom: 82%;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+}
+
+.container-4 table{
+    position: relative;
+    /* margin-top: 3%; */
+    top: 42%;
+    width: 39%;
+    left: 9%;
+}
+
+.container-4 table > *{
+    position: absolute;
+}
+
+.container-4 td p:nth-child(1){
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    /* identical to box height */
+    letter-spacing: 2px;
+
+    color: #FFB548;
+}
+
+.container-4 td p:nth-child(2){
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* or 122% */
+
+    color: #FFFFFF;
+}
+
+
+
+
+.container-5{
+    width: 100%;
+    height: 876.16px;
+    background-image: url(../img/bg-image-3.png);
+    position: relative;
+}
+
+.container-5 h1{
+    position: absolute;
+    height: 153.56px;
+    left: 8.15%;
+    right: 63.31%;
+    top: calc(50% - 153.56px/2 - 63.6px);
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.container-5 p{
+    position: absolute;
+    left: 8.33%;
+    right: 65.35%;
+    top: 44.34%;
+    bottom: 49.72%;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* or 122% */
+
+    color: #FFFFFF;
+}   
+
+.container-5 button{
+    position: absolute;
+    left: 8.12%;
+    right: 73.79%;
+    top: 54.45%;
+    bottom: 39.3%;
+
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+}   
+.container-5 .evan, .container-5 .jada, .container-5 .auron{
+    position: relative;
+    left: 60.26%;
+    right: 8.31%;
+    top: 11.58%;
+    bottom: 64.37%;
+    width: 452.59px;
+    height: 182.94px;
+
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+}
+
+.container-5 div.jada{
+    left: 50.12%;
+    right: 18.36%;
+    top: 14.76%;
+    bottom: 39.89%;
+}   
+
+.container-5 div.auron{
+    left: 58.46%;
+    right: 11.02%;
+    top: 18.23%;
+    bottom: 15.41%;
+    
+    
+ }
+
+.container-5 .evan .bg, .container-5 .jada .bg, .container-5 .auron .bg{
+    position: absolute;
+    width: 65.27px;
+    height: 65.27px;
+    left: 17px;
+    top: 6.19px;
+    background-color: #F3AF34;
+    border-radius: 50%;
+}
+
+.container-5 .evan .img, .container-5 .jada .img, .container-5 .auron .img{
+    position: absolute;
+    display: block;
+    background-image: url(../img/image-bulat-1.jpg);
+    width: 65.27px;
+    height: 65.27px;
+    left: 8px;
+    top: 6.19px;
+    border-radius: 50%;
+}
+
+.container-5 .evan h2, .container-5 .jada h2, .container-5 .auron h2{
+    position: absolute;
+    left: 20.83%;
+    right: 13.98%;
+    top: 6.32%;
+    bottom: 77.8%;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    /* identical to box height */
+    letter-spacing: 2px;
+
+    color: #FFB548;
+
+
+}
+
+.container-5 .evan .pc, .container-5 .jada .pc,.container-5 .auron .pc{
+    position: absolute;
+    left: 20.83%;
+    right: 5.49%;
+    top: 21.55%;
+    bottom: 74.76%;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* or 122% */
+    text-align: justify;
+
+    color: #FFFFFF;
+
+    opacity: 0.5;
+}
+
+.container-5 .evan .highlight, .container-5 .jada .highlight, .container-5 .auron .highlight{
+    left: 3.43%;
+    right: 13.76%;
+    top: 55.31%;
+    bottom: 69.54%;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+}
+
+.container-5 .evan .tgl, .container-5 .jada .tgl, .container-5 .auron .tgl{
+    position: absolute;
+    left: 4.42%;
+    right: 22.59%;
+    top: 82.35%;
+    bottom: 66.57%;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.container-5 .evan .twitter, .container-5 .jada .twitter, .container-5 .auron .twitter{
+    position: absolute;
+    left: 91.05%;
+    right: 9.69%;
+    top: 15.74%;
+    bottom: 78.81%;
+
+    
+}
+
+.container-5 div.jada .img {
+    background-image: url(../img/image-bulat-2.jpg);
+}
+
+.container-5 div.auron .img{
+    background-image: url(../img/image-bulat-3.jpg);
+}
+
+.container-6 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/bg-image-6.jpg);
+    position: relative;
+}
+.container-6 .img{
+    background-image: url(../img/image.png);
+    background-size: cover;
+    position: absolute;
+    width: 44%;
+    height: 95%;
+    left: -75%;
+    top: 23.98px;
+}
+.container-6 .content{
+    position: relative;
+    height: 76.28px;
+    left: 46.66%;
+    right: 6.37%;
+   
+    width: 720px;
+    height: 500px;
+}
+
+
+
+.container-6 .content h1{
+    width: 27%;
+    position: absolute;
+    height: 76.28px;
+    left: 2.66%;
+    right: 6.37%;
+    top: calc(66% - 76.28px/2 - 228.86px);
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 50px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.container .content h3{
+    width: 27%;
+    position: absolute;
+    left: 2.87%;
+right: 34.99%;
+top: 0.17%;
+bottom: 82.94%;
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+/* identical to box height */
+letter-spacing: 2px;
+
+color: #FFFFFF;
+}
+
+.container-6 .content p{
+    position: absolute;
+    left: 3.81%;
+    right: 8.46%;
+    top: 39.45%;
+    bottom: 46.33%;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+
+    /* or 122% */
+
+    color: #FFFFFF;
+}
+
+
+.container-6 .content .ket{
+    position: relative;
+    width: 366.92px;
+    height: 60px;
+    left: 3%;
+    top: 64%;
+
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 5px;
+}
+
+.container-6 .content .ket p{
+    position: absolute;
+    width: 177.95px;
+    height: 20px;
+    left: 2.35%;
+    top: 10%;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+}
+
+.container-6 .content .ket h1{
+    position: absolute;
+    left: 1.35%;
+    right: 23.45%;
+    top: 45.01%;
+    bottom: 39.49%;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #FFB548;
+
+
+}
+
+.container-6 .content button{
+    position: absolute;
+    left: 56.51%;
+    right: 8.46%;
+    top: 64.19%;
+    bottom: 40.54%;
+    width: 23%;
+    height: 12%;
+
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+}
+
+.container-6 .footer {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.container-6 .list{
+    position: relative;
+    
+    margin-left: 3%;
+    margin-right: 8%;
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+    
+}
+
+.container-6 hr{
+    width: 91%;
+    margin-left: -2%;
+   
+}
+
+.container-6 .copy-right{
+    margin-top: 1%;
+    width: 89%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-6 .copy-right h3{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.container-6 .copy-right p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+
+
+}
+
+/* responsive breakpoint */
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 768px;
+        
+    }
+
+    .container-1{
+        width: 100%;
+        height: 100vh;
+    }
+}
+

@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ammrshmbng/challenge-chap-5/issues"
   },
-  "homepage": "https://github.com/ammrshmbng/challenge-chap-5#readme"
+  "homepage": "https://github.com/ammrshmbng/challenge-chap-5#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3"
+  }
 }
