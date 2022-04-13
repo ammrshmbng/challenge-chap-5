@@ -10,7 +10,7 @@ const port  = 3000;
 app.set('view engine','ejs');
 
 // middleware
-app.use('/assets',express.static('assets'))
+app.use(express.static('assets'));
 
 
 //routing
