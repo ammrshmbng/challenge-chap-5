@@ -1,26 +1,33 @@
-// ubah index.html menjadi index.ejs lalu pindahkan ke view
-// membuat alamat untuk menampilkan alamatnya
-// untuk assetnya sajikan secara static menggunakan express statis
-
+// import express module
 const express = require('express');
+
+// initialize express
 const app = express();
 
+// import route
+const route = require('./route');
+
+// import error local module middleware
+const errorPageNotFound = require('./middlewares/error');
+
+// config port
 const port  = 8000;
 
+// set view engine
 app.set('view engine','ejs');
 
-// middleware
-app.use(express.static('public'))
+// serving static files
+app.use(express.static('public'));
 
+// reading request body middlewares
+app.use(express.json());
+app.use(express.urlencoded({extended: false}));
 
 //routing
-app.get('/game',function(req,res){
-    res.render('game');
-});
+app.use('/',route);
 
-app.get('/',function(req,res){
-    res.render('index');
-});
+// error notfound middlewares
+app.use(errorPageNotFound.error);
 
-
+// running server
 app.listen(port,()=>{console.log('server is running')})
