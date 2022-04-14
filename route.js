@@ -3,12 +3,12 @@ const express = require('express');
 const router = express.Router();
 
 // import controller 
-const indexController = require('./controllers/index');
-const gameController = require('./controllers/game');
-const {userStatic} = require('./controllers/user');
+const {index : indexController} = require('./controllers/index');
+const {game: gameController} = require('./controllers/game');
+const {userStatic : userStatiController} = require('./controllers/user');
 
-router.get('/',indexController.index);
-router.get('/game',gameController.game);
-router.get('/users',userStatic);
+router.get('/',indexController);
+router.get('/game',gameController);
+router.get('/users',userStatiController);
 
 module.exports = router
