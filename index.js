@@ -1,6 +1,9 @@
 // import express module
 const express = require('express');
 
+// initializing usage of configuration file env 
+require('dotenv').config();
+
 // initialize express
 const app = express();
 
@@ -11,7 +14,7 @@ const route = require('./route');
 const errorPageNotFound = require('./middlewares/error');
 
 // config port
-const port  = 8000;
+const port  = process.env.PORT;
 
 // set view engine
 app.set('view engine','ejs');
