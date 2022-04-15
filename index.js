@@ -33,4 +33,4 @@ app.use('/',route);
 app.use(errorPageNotFound.error);
 
 // running server
-app.listen(port,()=>{console.log('server is running')})
+app.listen(port,()=>{console.log(`server is running ${port}`)})

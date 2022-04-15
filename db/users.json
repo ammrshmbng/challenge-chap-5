@@ -1,12 +1,12 @@
 [
     {
-        "uid": "b1808b3c-0743-11ec-9a03-0242ac130003",
+        "uid": "1",
         "email": "akun1",
         "password": "123456"
     },
     {
         "uid": "2",
-        "email": "akun2devalappars@gmail.com",
+        "email": "binar@gmail.com",
         "password": "qwerty"
     }
 ]
